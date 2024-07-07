@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background: url(images/Rectangle1.jpg), #9c5e29;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.nav {
+  background-color: #d1d1d188;
+  border-radius: 1rem;
+  border: 1px solid #9c5e29;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 2rem auto;
+}
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  color: white;
+  font-size: 1.3rem;
+}
+.nav__link--logo {
+  padding-right: 1rem;
+}
+.header__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 40vh;
+  width: 40vw;
+}
+.heading__primary {
+  color: #fff;
+  font-family: "Sorts Mill Goudy";
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+}
+.header__input {
+  border-radius: 1rem;
+  width: 40%;
+  outline: none;
+  padding: 0.5rem;
+}
+.header__button {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #9c5e29;
+  border-radius: 1rem;
+}
+.section__products{
+  background-color: #c7ccd9;
+
+}
+.products__heading {
+  /* margin-top: 2rem; */
+}
