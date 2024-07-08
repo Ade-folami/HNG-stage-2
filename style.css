@@ -10,6 +10,9 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Sorts Mill Goudy";
+}
 .header {
   background: url(images/Rectangle1.jpg), #9c5e29;
   display: flex;
@@ -54,7 +57,6 @@ html {
 }
 .heading__primary {
   color: #fff;
-  font-family: "Sorts Mill Goudy";
   font-weight: 300;
   font-size: 3rem;
   text-align: center;
@@ -71,10 +73,53 @@ html {
   background-color: #9c5e29;
   border-radius: 1rem;
 }
-.section__products{
+.section__products {
   background-color: #c7ccd9;
-
+  padding: 2rem;
 }
 .products__heading {
-  /* margin-top: 2rem; */
+  margin-top: 2rem;
+}
+.products__options {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins";
+}
+.products__option {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.products__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Poppins";
+  margin: 5rem auto;
+  gap: 5rem;
+  /* position: relative; */
+}
+.products__container--item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.products__container--item-image {
+  width: 70%;
+  margin: auto;
+  position: 50%;
+  top: 50%;
+  left: 50%;
+}
+.products__container--item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #383532a6;
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  width: 100%;
+  height: 100%;
 }
