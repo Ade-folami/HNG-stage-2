@@ -222,3 +222,19 @@ body {
   color: #fff;
   padding: 2rem;
 }
+.cart__header {
+  background: url(images/cart-bg.png);
+  padding: 2rem;
+}
+.cart__header--links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+.cart__header--link {
+  text-decoration: none;
+  padding: 1rem;
+  color: #fff;
+}
