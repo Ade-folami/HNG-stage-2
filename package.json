@@ -1,0 +1,14 @@
+{
+  "name": "stage-2",
+  "version": "1.0.0",
+  "description": "stage 2 task for hng internship",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Adefolami",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
