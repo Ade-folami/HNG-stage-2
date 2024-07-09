@@ -241,7 +241,7 @@ body {
 }
 .section__cart {
   background-color: #c7ccd9;
-  height: 80vh;
+  height: 90vh;
   font-family: "Poppins";
 }
 .cart__area {
@@ -250,7 +250,7 @@ body {
   column-gap: 3rem;
   margin: auto;
   padding: 2rem;
-  height: 100%;
+  height: 90%;
   max-width: 80vw;
 }
 .cart__area--items {
@@ -308,4 +308,98 @@ body {
   display: inline-block;
   width: 80%;
   height: 100%;
+}
+.items__button--container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+}
+.items__button {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #9c5e29;
+  color: #fff;
+  margin: auto;
+  align-self: center;
+}
+.cart__area--summary {
+  background-color: #9c5e29;
+  border-radius: 1rem;
+}
+.summary__container {
+  background-color: #fff;
+  padding: 2rem;
+  font-family: "Poppins";
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  height: 90%;
+  margin: 2rem auto;
+}
+.summary__heading {
+  color: #9c5e29;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2rem;
+  /* align-self: center; */
+}
+.summary__icon {
+  padding-right: 1rem;
+}
+.summary__prices {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.summary__prices--heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.summary__prices--breakdown-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+.summary__prices--breakdown {
+  display: flex;
+  justify-content: space-between;
+}
+.summary__prices--breakdown-text {
+  color: #c7ccd9;
+  font-weight: 500;
+}
+.summary__prices--breakdown-amount {
+  color: #000;
+  font-weight: 700;
+}
+.summary__prices--total {
+  display: flex;
+  justify-content: space-between;
+}
+.summary__prices--total-text {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.summary__prices--total-amount {
+  color: #9c5e29;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.summary__prices--button {
+  text-decoration: none;
+  background-color: #9c5e29;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+.summary__offer {
+  color: #34c759;
+  font-weight: 700;
 }
