@@ -403,3 +403,19 @@ body {
   color: #34c759;
   font-weight: 700;
 }
+.section__recents {
+  padding: 5rem;
+  font-family: "Poppins";
+  background-color: #c7ccd9;
+  height: 70vh;
+}
+.recents__heading {
+  color: #9c5e29;
+  font-size: 2rem;
+}
+.section__recents--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem auto;
+}
