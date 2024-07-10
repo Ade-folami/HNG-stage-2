@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Blings Cart</title>
+    <title>Blings Shipping</title>
   </head>
   <body>
     <header class="cart__header">
@@ -44,7 +44,7 @@
               ><img src="images/prod-icon.png" alt="Products" /></span
             >Products</a
           >
-          <a href="" class="nav__link" style="color: #9c5e29">
+          <a href="" class="nav__link">
             <span
               ><img
                 src="images/cart-icon.png"
@@ -55,9 +55,11 @@
         </div>
       </nav>
       <div class="cart__header--links">
-        <a href="#" class="cart__header--link" style="color: #9c5e29">Cart</a>
+        <a href="#" class="cart__header--link">Cart</a>
         <hr />
-        <a href="#" class="cart__header--link">Address</a>
+        <a href="#" class="cart__header--link" style="color: #9c5e29"
+          >Address</a
+        >
         <hr />
         <a href="#" class="cart__header--link">Payment</a>
       </div>
@@ -72,89 +74,65 @@
                 alt="shopping-icon"
                 class="items__heading--shopping-image"
               />
-              <h2 class="items__heading--shopping-text">Shopping Cart</h2>
-            </div>
-            <h2 class="items__heading--number">3 items</h2>
-          </div>
-          <div class="items__sub">
-            <h3 class="items__sub--heading">Product Details</h3>
-            <h3 class="items__sub--heading">Price</h3>
-            <h3 class="items__sub--heading">Quantity</h3>
-            <h3 class="items__sub--heading">Total</h3>
-          </div>
-          <div class="items__products--container">
-            <div class="items__product">
-              <a href="#" class="items__product--remove">&#10005;</a>
-              <div class="items__product--area">
-                <img
-                  src="images/chunky-ring.png"
-                  alt="chunky-ring"
-                  class="items__product--image"
-                />
-                <div class="items__product--details">
-                  <div class="items__product--details-name">Chunky Rings</div>
-                  <span class="items__product--details-metal">Metal: Gold</span
-                  ><br />
-                  <span class="items__product--details-size">size: 6.5cm</span>
-                </div>
-                <span class="items__product--price">$308,000</span>
-                <span class="items__product--quantity">
-                  <span class="order-reduce">-</span
-                  ><span class="order-number">1</span
-                  ><span class="order-increase">+</span>
-                </span>
-                <span class="items__product--total">$308,000</span>
-              </div>
-            </div>
-            <div class="items__product">
-              <a href="#" class="items__product--remove">&#10005;</a>
-              <div class="items__product--area">
-                <img
-                  src="images/chunky-ring.png"
-                  alt="chunky-ring"
-                  class="items__product--image"
-                />
-                <div class="items__product--details">
-                  <div class="items__product--details-name">Chunky Rings</div>
-                  <span class="items__product--details-metal">Metal: Gold</span
-                  ><br />
-                  <span class="items__product--details-size">size: 6.5cm</span>
-                </div>
-                <span class="items__product--price">$308,000</span>
-                <span class="items__product--quantity">
-                  <span class="order-reduce">-</span
-                  ><span class="order-number">1</span
-                  ><span class="order-increase">+</span>
-                </span>
-                <span class="items__product--total">$308,000</span>
-              </div>
-            </div>
-            <div class="items__product">
-              <a href="#" class="items__product--remove">&#10005;</a>
-              <div class="items__product--area">
-                <img
-                  src="images/chunky-ring.png"
-                  alt="chunky-ring"
-                  class="items__product--image"
-                />
-                <div class="items__product--details">
-                  <div class="items__product--details-name">Chunky Rings</div>
-                  <span class="items__product--details-metal">Metal: Gold</span
-                  ><br />
-                  <span class="items__product--details-size">size: 6.5cm</span>
-                </div>
-                <span class="items__product--price">$308,000</span>
-                <span class="items__product--quantity">
-                  <span class="order-reduce">-</span
-                  ><span class="order-number">1</span
-                  ><span class="order-increase">+</span>
-                </span>
-                <span class="items__product--total">$308,000</span>
-              </div>
+              <h2 class="items__heading--shopping-text">Shipping Details</h2>
             </div>
           </div>
+          <form action="" class="shipping__form">
+            <formgroup class="shipping__form--name">
+              <label for="shipping__firstname" class="shipping__label"
+                >First Name</label
+              >
+
+              <input
+                type="text"
+                class="shipping__firstname"
+                id="shipping__firstname"
+                placeholder="First name"
+              />
+              <label for="shipping__lastname" class="shipping__label"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                class="shipping__lastname"
+                id="shipping__lastname"
+                placeholder="Last name"
+              />
+            </formgroup>
+            <label for="shipping__address" class="shipping__label"
+              >Address</label
+            >
+
+            <input
+              type="text"
+              class="shipping__address"
+              id="shipping__address"
+              placeholder="street address"
+            />
+            <label for="shipping__phone" class="shipping__label">Phone</label>
+            <input
+              type="text"
+              class="shipping__phone"
+              id="shipping__phone"
+              placeholder="+234"
+            />
+
+            <label for="shipping__order" class="shipping__label"
+              >Order notes</label
+            >
+
+            <input
+              type="text"
+              class="shipping__order"
+              id="shipping__order"
+              placeholder="Type your message here..."
+            />
+          </form>
           <div class="items__button--container">
-            <a href="shipping.html" class="items__button">CONTINUE SHOPPING</a>
+            <a href="cart.html" class="items__button--return"
+              >< RETURN TO CART</a
+            >
+            <a href="#" class="items__button">PROCEED TO PAYMENT</a>
           </div>
         </div>
         <div class="cart__area--summary">

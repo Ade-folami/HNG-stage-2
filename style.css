@@ -238,6 +238,7 @@ body {
   text-decoration: none;
   padding: 1rem;
   color: #fff;
+  font-size: 1.3rem;
 }
 .section__cart {
   background-color: #c7ccd9;
@@ -418,4 +419,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
   margin: 2rem auto;
+}
+.shipping__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  padding: 1rem;
 }
