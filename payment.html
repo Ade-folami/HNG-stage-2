@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blings Cart</title>
+  </head>
+  <body>
+    <header class="cart__header">
+      <nav class="nav">
+        <img src="images/blings-logo.png" alt="blings " class="nav__logo" />
+        <div class="nav__links">
+          <a href="index.html" class="nav__link">
+            <span
+              ><img
+                src="images/teenyicons_home-outline.png"
+                alt="home"
+                class="nav__link--logo" /></span
+            >Home</a
+          >
+          <a href="" class="nav__link">
+            <span
+              ><img
+                src="images/clarity_avatar-line.png"
+                alt="About"
+                class="nav__link--logo" /></span
+            >About</a
+          >
+          <a href="#" class="nav__link">
+            <span class="nav__link--logo"
+              ><img src="images/prod-icon.png" alt="Products" /></span
+            >Products</a
+          >
+          <a href="" class="nav__link" style="color: #9c5e29">
+            <span
+              ><img
+                src="images/cart-icon.png"
+                alt="cart"
+                class="nav__link--logo" /></span
+            >Cart</a
+          >
+        </div>
+      </nav>
+      <div class="cart__header--links">
+        <a href="#" class="cart__header--link">Cart</a>
+        <hr />
+        <a href="#" class="cart__header--link">Address</a>
+        <hr />
+        <a href="#" class="cart__header--link" style="color: #9c5e29"
+          >Payment</a
+        >
+      </div>
+    </header>
+    <section class="section__cart">
+      <div class="cart__area">
+        <div class="cart__area--items">
+          <div class="payment__heading">
+            <h2 class="payment__heading--main">Payment</h2>
+            <h3 class="payment__heading--subheading">
+              All transactions are secure and encrypted
+            </h3>
+          </div>
+          <div class="payment__card">
+            <div class="payment__card--credit">
+              <input type="radio" class="payment__card--credit-radio" />
+              <span class="payment__card--credit-text">Credit card</span>
+            </div>
+            <div class="payment__card--logos">
+              <img
+                src="images/visa-icon.svg"
+                alt="visa"
+                class="payment__card--visa"
+              />
+              <img
+                src="images/credit-icon.svg"
+                alt="master"
+                class="payment__card--master"
+              />
+            </div>
+          </div>
+          <form action="" class="payment__form">
+            <input
+              type="text"
+              class="payment__form--cardnumber"
+              placeholder="Card number"
+            />
+            <input
+              type="number"
+              class="payment__form--cardname"
+              placeholder="Card name"
+            />
+            <formgroup class="payment__form--date">
+              <input
+                type="date"
+                class="payment__form--expdate"
+                placeholder="Exp. date (MM/YY)"
+              />
+              <input
+                type="number"
+                class="payment__form--cvv"
+                placeholder="CVV"
+              />
+            </formgroup>
+          </form>
+          <div class="items__button--container">
+            <a href="shipping.html" class="items__button payment__button"
+              >PAY NOW</a
+            >
+          </div>
+        </div>
+        <div class="cart__area--summary">
+          <div class="summary__container">
+            <h2 class="summary__heading">
+              <span
+                ><img
+                  src="images/summary-icon.png"
+                  alt="summary"
+                  class="summary__icon" /></span
+              >Order Summary
+            </h2>
+            <div class="summary__prices">
+              <h3 class="summary__prices--heading">Price Details (4)</h3>
+              <div class="summary__prices--breakdown-area">
+                <div class="summary__prices--breakdown">
+                  <span class="summary__prices--breakdown-text">Sub Total</span
+                  ><span class="summary__prices--breakdown-amount"
+                    >$415,000</span
+                  >
+                </div>
+                <div class="summary__prices--breakdown">
+                  <span class="summary__prices--breakdown-text"
+                    >Item Discount</span
+                  ><span class="summary__prices--breakdown-amount">$0.00</span>
+                </div>
+                <div class="summary__prices--breakdown">
+                  <span class="summary__prices--breakdown-text"
+                    >Coupon Discount</span
+                  ><span class="summary__prices--breakdown-amount">$0.00</span>
+                </div>
+                <div class="summary__prices--breakdown">
+                  <span class="summary__prices--breakdown-text"
+                    >Shipping Fee</span
+                  ><span class="summary__prices--breakdown-amount"
+                    >$100.00</span
+                  >
+                </div>
+              </div>
+              <div class="summary__prices--total">
+                <span class="summary__prices--total-text">Total Amount</span
+                ><span class="summary__prices--total-amount">$415,100</span>
+              </div>
+              <a href="" class="summary__prices--button">CHECKOUT</a>
+            </div>
+            <p class="summary__offer">$200 OFF your next ORDER !</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <footer class="footer">
+      <div class="footer__main">
+        <img src="images/blings-logo.png" alt="logo" class="footer__logo" />
+        <div class="footer__main--links">
+          <a href="#" class="footer__main--link">Home</a>
+          <a href="" class="footer__main--link">About</a>
+          <a href="" class="footer__main--link">Products</a>
+        </div>
+        <span class="footer__number">07040525298</span>
+      </div>
+      <hr style="color: #fff" />
+      <span class="footer__rights">@2024 All the Rights Reserved - Blings</span>
+    </footer>
+  </body>
+</html>

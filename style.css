@@ -427,3 +427,58 @@ body {
   height: 70%;
   padding: 1rem;
 }
+.shipping__form--name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.shipping__form--firstname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.shipping__form--lastname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.shipping__label {
+  padding: 1rem;
+}
+.payment__heading {
+  text-align: center;
+  font-family: "Poppins";
+  padding: 2rem;
+}
+.payment__heading--main {
+  color: #9c5e29;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.payment__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.payment__card--credit {
+}
+.payment__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  padding: 1rem;
+}
+.payment__form--date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment__button {
+  width: 100%;
+  text-align: center;
+}
